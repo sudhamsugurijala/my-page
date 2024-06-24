@@ -19,9 +19,9 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://in.linkedin.com/in/sudhamsugurijala" className={styles.card}>
+            <h3>LinkedIn Profile &rarr;</h3>
+            <p>See Certifications, Work Experience, Projects and more</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
@@ -38,26 +38,19 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://github.com/sudhamsugurijala/FccProjects/tree/main/frontend-dev-libs/reactRedux/random-quote"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Random Quote Project &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Simple React App to generate random quotes.
             </p>
           </a>
         </div>
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
+        <b>Powered by Github Pages</b>
       </footer>
 
       <style jsx>{`
